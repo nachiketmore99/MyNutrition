@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MyNutrition</title>
+  <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+  <script src="js/bmi.js"></script>
+  <div class="topnav">
+    <nav>
+      <h3>MyNutrition</h3>
+        <ul>
+          <li class="active" ><a href="index.html">Home</a></li>
+          <li><a>About</a></li>
+          <li><a href="contact.html" target="_blank">Contact Us</a></li>
+        </ul>  
+      </nav>
+    </div>
+
+  <div class="imgs">
+    <img src="bmi.png">  
+  </div>
+    
+
+  <form class="box">
+    <h1>BMI Calculator</h1>
+    <input id="weight" type="number" placeholder="  weight in kg" name="" min="0" max="1000">
+    <input id="height" type="number" placeholder="height in cm" name="" min="0" max="300">
+    <button onclick="bmi()" type="button">Calculate</button>
+    <p id="result">Your BMI is</p>
+  </form>
+
+  <div class="dci">
+    <p id="dcl">The Daily Calories Intake Is </p>
+    <p id="dclr"></p>  
+  </div>
+    
+
+</body>
+
+</html>
